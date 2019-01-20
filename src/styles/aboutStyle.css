@@ -1,0 +1,17 @@
+.about{
+  font-family:arial, helvetica, sans-serif;
+  color:#5991b6
+}
+
+.aboutTransition-appear{
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.aboutTransition-appear.aboutTransition-appear-active{
+  opacity: 1;
+  transform: translateX(0px);
+  transition: all .4s ease-in-out;
+  
+}
+
